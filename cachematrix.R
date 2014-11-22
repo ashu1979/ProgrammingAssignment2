@@ -4,6 +4,7 @@
 ## makeCacheMatrix is used to create cache invert matrix object. 
 
 makeCacheMatrix <- function(x = matrix()) {
+	# Define set and get methods for inverse.
 	inv <- NULL
 	set <- function(y) {
 		x <<- y
